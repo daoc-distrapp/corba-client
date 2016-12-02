@@ -18,7 +18,7 @@ public class Main {
             Properties props = new Properties();
             props.setProperty("java.naming.factory.initial", "com.sun.enterprise.naming.SerialInitContextFactory");            
             //Si el servidor corre en localhost, entonces esta línea no es necesaria
-            props.setProperty("org.omg.CORBA.ORBInitialHost", "localhost");
+            props.setProperty("org.omg.CORBA.ORBInitialHost", "werwerwer");
             //Si se usa el puerto 3700(puerto por defecto del ORB),
             //entonces la siguiente línea no es necesaria
             props.setProperty("org.omg.CORBA.ORBInitialPort", "3700");
